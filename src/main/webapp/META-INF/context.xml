@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context name="/JdbcTomcatPool" docBase="C:\Users\lommmm\OneDrive\桌面\apache-tomcat-9.0.94\webapps\JdbcTomcatPool">
+	<Resource name="tomcatPool" type="javax.sql.DataSource" auth="Container"
+	driverClassName="com.mysql.cj.jdbc.Driver" 
+	url="jdbc:mysql://localhost:3306/newmanager"
+	username="root"
+	password="123456"
+	maxActive="40"
+	maxIdle="2"/>
+</Context>
