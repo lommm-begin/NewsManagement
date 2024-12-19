@@ -10,7 +10,7 @@ Java Web-MySQL新闻中心管理系统
 -------------------------------------------------
 MySQL库名为newmanager  
 
-表一admin
+表一admin  
 
 CREATE TABLE `admin` (  
   `adminid` int NOT NULL AUTO_INCREMENT COMMENT '自动编码',  
@@ -20,7 +20,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;  
 
 ---------------------------------------------------
-表二newdetail
+表二newdetail  
 
 CREATE TABLE `newsdetail` (  
   `id` int NOT NULL AUTO_INCREMENT COMMENT '新闻记录编号',  
