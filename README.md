@@ -48,7 +48,7 @@ CREATE TABLE `newsdetail` (
 
 ---------------------------------------------------
 
-**内容展示**  
+**运行展示**  
 
 ![image](https://github.com/user-attachments/assets/93addda9-410e-48fe-a0f0-e0d8dec1937a)
 ![image](https://github.com/user-attachments/assets/1d42d21e-1a00-4f6a-b263-96afb0bf29c2)
