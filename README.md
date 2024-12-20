@@ -1,4 +1,4 @@
-# NewsManager
+# NewsManagement
 JSP-MySQL新闻中心管理系统
 
 这是基于Tomcat9.0的Dynamic Web Project项目  
