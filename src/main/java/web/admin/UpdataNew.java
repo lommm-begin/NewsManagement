@@ -40,16 +40,6 @@ public class UpdataNew extends HttpServlet {
 		String type = (String)request.getParameter("Type");
 		String author = (String)request.getParameter("Author");
 		String content = (String)request.getParameter("Content");
-		
-		switch(type) {
-			case "金融":type = "1";break;
-			case "餐饮":type = "2";break;
-			case "科技":type = "3";break;
-			case "生活":type = "4";break;
-			case "娱乐":type = "5";break;
-			case "知识":type = "6";break;
-			default: type = "7";
-		}
 		String sql = "UPDATE newsdetail SET title = ?, author = ?, type = ?, content = ? WHERE id = ?;";
 		
 		db.getConn();

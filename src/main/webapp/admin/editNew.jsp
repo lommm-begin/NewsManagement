@@ -71,13 +71,13 @@
                     <!-- 新闻类型 -->
 				<label for="newsType">新闻类型：</label>
 				<select name="Type" id="newsType" required style="font-size:17px;">
-    				<option value="金融" <%= "1".equals(all.getType()) ? "selected" : "" %>>金融</option>
-    				<option value="餐饮" <%= "2".equals(all.getType()) ? "selected" : "" %>>餐饮</option>
-    				<option value="科技" <%= "3".equals(all.getType()) ? "selected" : "" %>>科技</option>
-    				<option value="生活" <%= "4".equals(all.getType()) ? "selected" : "" %>>生活</option>
-    				<option value="娱乐" <%= "5".equals(all.getType()) ? "selected" : "" %>>娱乐</option>
-    				<option value="知识" <%= "6".equals(all.getType()) ? "selected" : "" %>>知识</option>
-    				<option value="其他" <%= "7".equals(all.getType()) ? "selected" : "" %>>其他</option>
+    				<option value="1" <%= "1".equals(all.getType()) ? "selected" : "" %>>金融</option>
+    				<option value="2" <%= "2".equals(all.getType()) ? "selected" : "" %>>餐饮</option>
+    				<option value="3" <%= "3".equals(all.getType()) ? "selected" : "" %>>科技</option>
+    				<option value="4" <%= "4".equals(all.getType()) ? "selected" : "" %>>生活</option>
+    				<option value="5" <%= "5".equals(all.getType()) ? "selected" : "" %>>娱乐</option>
+    				<option value="6" <%= "6".equals(all.getType()) ? "selected" : "" %>>知识</option>
+    				<option value="7" <%= "7".equals(all.getType()) ? "selected" : "" %>>其他</option>
 				</select>
     
                     
