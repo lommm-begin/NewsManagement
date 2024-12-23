@@ -3,17 +3,17 @@ JSP-MySQL新闻中心管理系统
 
 这是基于Tomcat9.0的Dynamic Web Project项目  
 
--------------------------------------------------
+----
 
-1.浏览者可以浏览全部新闻，并且根据唯一关键字查找对应的新闻。  
-2.管理员可以增，删，改，查，并且跟用户的查询结果页面会提供编辑和删除选项。
+* 浏览者可以浏览全部新闻，并且根据唯一关键字查找对应的新闻。  
+* 管理员可以增，删，改，查，并且跟用户的查询结果页面会提供编辑和删除选项。
 
----------------------------------------------------
+----
 
 将build和src文件夹，覆盖你的项目的对应文件夹
 
---------------------------------------------------
-MySQL库名为newmanager  
+----
+## MySQL库名为newmanager  
 
 **表一admin**  
 
@@ -24,7 +24,7 @@ CREATE TABLE `admin` (
   PRIMARY KEY (`adminid` DESC)  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;  
 
----------------------------------------------------
+----
 **表二newdetail**  
 
 CREATE TABLE `newsdetail` (  
@@ -46,9 +46,9 @@ CREATE TABLE `newsdetail` (
   6.知识  
   7.其他（除上面以外，什么数字都可以）
 
----------------------------------------------------
+----
 
-**运行展示**  
+## 运行展示  
 
 ![image](https://github.com/user-attachments/assets/93addda9-410e-48fe-a0f0-e0d8dec1937a)
 ![image](https://github.com/user-attachments/assets/1d42d21e-1a00-4f6a-b263-96afb0bf29c2)
