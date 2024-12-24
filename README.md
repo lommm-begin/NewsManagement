@@ -3,6 +3,9 @@ JSP-MySQL新闻中心管理系统
 
 这是基于Tomcat9.0的Dynamic Web Project项目  
 
+**符合MVC模式**
+
+
 ----
 
 * 浏览者可以浏览全部新闻，并且根据唯一关键字查找对应的新闻。  
