@@ -4,6 +4,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" errorPage="/admin/error.jsp"%>
 <%@page import="org.apache.jasper.tagplugins.jstl.core.ForEach" import="java.util.*" import="com.AllShow"%>
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,7 +47,7 @@
 			<div class="login-time"><a href="${pageContext.request.contextPath}/Exit">退出登录</a></div>
 		</div>
 	</div>
-	<div class="center" style="margin-left: 180px;">
+	<div class="center">
 		<div class="all-row">
 			<div class="row first-div">
 				<div class="all-title all first">新闻标题</div>
